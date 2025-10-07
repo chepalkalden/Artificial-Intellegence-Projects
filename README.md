@@ -54,8 +54,8 @@ Store cleaned data in a feature store or data warehouse for modeling and analysi
 ## 🧠 Machine Learning Model
 
 ### 🔹 Dataset Construction
-- Link cleaned datasets using the unique identifier `DESYNPUF_ID`.
-- Merge **beneficiary**, **carrier**, **inpatient**, **outpatient**, and **drug** claims into a unified dataset.
+- We tried to Link cleaned datasets using the unique identifier `DESYNPUF_ID` but could not achieve due to google collab limitation to process all the data.
+- Therefore, we have use the concat() function in Pandas to combine cleaned dataframes vertically stacking all rows from the three sources on top of each other.
 
 ### 🔹 Model Type
 - **Multiclass Classification**
