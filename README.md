@@ -1,5 +1,5 @@
 # Artificial-Intellegence-Projects
-# 🏥 US Health Care Claims C;assification
+# 🏥 US Health Care Claims Classification
 It is a Health Claim Categorization Project with Machine Learning
 
 ## 📌 Problem Statement
